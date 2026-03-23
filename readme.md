@@ -1,16 +1,16 @@
 # Battery Dispatch Model
 
-This project implements a linear optimisation model for battery energy storage system (BESS) dispatch, along with a simple backtesting framework.
+This project implements a linear optimisation model for battery energy storage system (BESS) dispatch, along with a backtesting framework.
 
 ## Contents
 
 * `writeup.pdf`
   Contains the mathematical formulation of the model.
 
-* `notebook.ipynb`
+* `energy.ipynb`
   Main analysis notebook. Includes:
 
-  * model implementation
+  * model implementation using OOP
   * rolling optimisation backtest
   * visualisations
 

@@ -1,6 +1,6 @@
 # Battery Dispatch Model
 
-This project implements a linear optimisation model for battery energy storage system (BESS) dispatch, along with a backtesting framework.
+Inspired by my mathematical optimisation (Operations Research) class, I realised that simple battery trading can be implemented as a linear program. This project implements a linear optimisation model for battery energy storage system (BESS) dispatch, along with a backtesting framework.
 
 ## Contents
 
@@ -26,8 +26,3 @@ In a backtest, the model was able to generate over 470k AUD in profit over the m
 ## Usage
 
 Open the notebook and run the cells sequentially to reproduce results.
-
-## Gen-AI usage
-
-GitHub Copilot was used for creating the .gitignore file.
-

@@ -27,7 +27,7 @@ In a backtest, the model was able to generate over 470k AUD in profit over the m
 
 Open the notebook and run the cells sequentially to reproduce results.
 
-## Disclaimer
+## Gen-AI usage
 
 GitHub Copilot was used for creating the .gitignore file.
 

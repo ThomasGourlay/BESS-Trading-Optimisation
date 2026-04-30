@@ -2,7 +2,7 @@
 
 Inspired by my mathematical optimisation (Operations Research) class, I realised that simple battery arbitrage trading can be implemented as a linear program. This project implements a linear optimisation model for battery energy storage system (BESS) dispatch, along with a backtesting framework. We ignore many of the complexities of the NEM, such as the power of batteries as price-setters, etc, just assuming the price written down is the price we get. We also ignore FCAS markets (for now) which make up some portion of real life battery revenue.
 
-We use a simple xgboost tree model to create a prediction for energy prices. We use some data engineering to allow the model to predict prices for multiple horizons, giving us essentially time series data. This model isn't the best at forecasting but I wanted to see whether the optimisation model would still profit with shaky forecasts, which it does pretty well.
+We use a simple xgboost tree model to create a prediction for energy prices. We use some data engineering to allow the model to predict prices for multiple horizons, giving us essentially time series data. This model isn't the best at forecasting, but I wanted to see whether the optimisation model would still profit with shaky forecasts, which it does pretty well.
 
 ## Contents
 
